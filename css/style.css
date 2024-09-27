@@ -120,6 +120,7 @@ nav a:focus {
 .skip {
     position: absolute;
     top: -40px;
+    left: 0;
 }
 
 
@@ -250,5 +251,9 @@ first div in the grid  and place it in the grid. */
     .text-block {
         max-height: 250px;
         overflow: scroll;
+        /* Make the element focusable by adding tabindex in HTML */
+        /*scrollable region must have keyboard access. To solve this problem, you need to fix at least (1) of the following:
+Element should have focusable content
+Element should be focusable*/
     }
 }
